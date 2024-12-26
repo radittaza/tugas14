@@ -1,8 +1,6 @@
-
 import Link from 'next/link';
-import React from 'react';
 
-function Kelompok() {
+export default function Home() {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-50">
       <div className="max-w-md w-full space-y-8">
@@ -22,19 +20,6 @@ function Kelompok() {
           </Link>
         </div>
       </div>
-    </div>
-  );
-}
-    <div style={{ fontFamily: 'Arial, sans-serif', textAlign: 'center', padding: '20px' }}>
-      <p style={{ fontSize: '32px', color: '',padding: '30px' }}>Vercel</p>
-      <h1 style={{ color: '',paddingBottom: '5px' }}>Ini anggota kelompok kami</h1>
-      <ul style={{ fontSize: '18px', color: 'white', textAlign: 'left', display: 'inline-block' }}>
-        <li>Muhammad Raditya Azanata</li>
-        <li>Rheznandya Arya Priatama</li>
-        <li>Ferdy Permana</li>
-        <li>Adam Bekti Laksono</li>
-        <li>Dwi Novianto</li>
-      </ul>
     </div>
   );
 }
