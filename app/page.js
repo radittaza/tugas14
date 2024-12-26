@@ -1,12 +1,9 @@
-<<<<<<< HEAD
+
 import Link from 'next/link';
-=======
 import React from 'react';
->>>>>>> dd4b15bce620d9767c541a3d17845a5dc6689040
 
 function Kelompok() {
   return (
-<<<<<<< HEAD
     <div className="min-h-screen flex items-center justify-center bg-gray-50">
       <div className="max-w-md w-full space-y-8">
         <div>
@@ -28,7 +25,6 @@ function Kelompok() {
     </div>
   );
 }
-=======
     <div style={{ fontFamily: 'Arial, sans-serif', textAlign: 'center', padding: '20px' }}>
       <p style={{ fontSize: '32px', color: '',padding: '30px' }}>Vercel</p>
       <h1 style={{ color: '',paddingBottom: '5px' }}>Ini anggota kelompok kami</h1>
@@ -42,6 +38,3 @@ function Kelompok() {
     </div>
   );
 }
-
-export default Kelompok;
->>>>>>> dd4b15bce620d9767c541a3d17845a5dc6689040
